@@ -7,7 +7,8 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    while (num > 0) {
+    while (num > 0) 
+    {
         if (num & 1)
             count++;
 
